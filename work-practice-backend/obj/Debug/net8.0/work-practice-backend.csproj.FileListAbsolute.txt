@@ -46,3 +46,11 @@ E:\GitHub\Work-Practice\work-practice-backend\obj\Debug\net8.0\refint\work-pract
 E:\GitHub\Work-Practice\work-practice-backend\obj\Debug\net8.0\work-practice-backend.pdb
 E:\GitHub\Work-Practice\work-practice-backend\obj\Debug\net8.0\work-practice-backend.genruntimeconfig.cache
 E:\GitHub\Work-Practice\work-practice-backend\obj\Debug\net8.0\ref\work-practice-backend.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\GitHub\Work-Practice\work-practice-backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

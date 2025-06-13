@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "work_practice_backend.Controllers.CompaniesController",
-    "Method": "Get",
+    "Method": "GetCompanies",
     "RelativePath": "api/v1/Companies",
     "HttpMethod": "GET",
     "IsController": true,
@@ -10,6 +10,730 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.Companies, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompaniesController",
+    "Method": "GetOne",
+    "RelativePath": "api/v1/Companies/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Companies",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompaniesController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/v1/Companies/drop/{companyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Companies",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompaniesController",
+    "Method": "PostCompany",
+    "RelativePath": "api/v1/Companies/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "work_practice_backend.Models.Companies",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Companies",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompaniesController",
+    "Method": "PatchCompany",
+    "RelativePath": "api/v1/Companies/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "work_practice_backend.Models.Companies",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Companies",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyDecksController",
+    "Method": "GetCompaniesDecks",
+    "RelativePath": "api/v1/CompanyDecks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.CompanyDecks, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyDecksController",
+    "Method": "GetOne",
+    "RelativePath": "api/v1/CompanyDecks/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyDecksController",
+    "Method": "DeleteCompanyDeck",
+    "RelativePath": "api/v1/CompanyDecks/drop/{companyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyDecksController",
+    "Method": "PostCompany",
+    "RelativePath": "api/v1/CompanyDecks/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "work_practice_backend.Models.CompanyDecks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyDecksController",
+    "Method": "PatchCompany",
+    "RelativePath": "api/v1/CompanyDecks/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "work_practice_backend.Models.CompanyDecks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyStatesController",
+    "Method": "GetCompanies",
+    "RelativePath": "api/v1/CompanyStates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.CompanyStates, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyStatesController",
+    "Method": "GetOne",
+    "RelativePath": "api/v1/CompanyStates/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyStatesController",
+    "Method": "DeleteCompanyStates",
+    "RelativePath": "api/v1/CompanyStates/drop/{companyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyStatesController",
+    "Method": "PostCompanyStates",
+    "RelativePath": "api/v1/CompanyStates/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompanyStatesController",
+    "Method": "PatchCompanyStates",
+    "RelativePath": "api/v1/CompanyStates/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TagsController",
+    "Method": "GetTags",
+    "RelativePath": "api/v1/Tags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.Tags, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TagsController",
+    "Method": "GetOne",
+    "RelativePath": "api/v1/Tags/{tagName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tags",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TagsController",
+    "Method": "DeleteTag",
+    "RelativePath": "api/v1/Tags/drop/{tagName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tags",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TagsController",
+    "Method": "PostTag",
+    "RelativePath": "api/v1/Tags/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "work_practice_backend.Models.Tags",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tags",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TagsController",
+    "Method": "PatchTag",
+    "RelativePath": "api/v1/Tags/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "work_practice_backend.Models.Tags",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tags",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TasksController",
+    "Method": "GetTasks",
+    "RelativePath": "api/v1/Tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.Tasks, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TasksController",
+    "Method": "GetOne",
+    "RelativePath": "api/v1/Tasks/{tasksName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tasksName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tasks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TasksController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/v1/Tasks/drop/{tasksName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tasksName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tasks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TasksController",
+    "Method": "PostTask",
+    "RelativePath": "api/v1/Tasks/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "work_practice_backend.Models.Tasks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tasks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.TasksController",
+    "Method": "PatchTask",
+    "RelativePath": "api/v1/Tasks/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "work_practice_backend.Models.Tasks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Tasks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UserDecksController",
+    "Method": "GetUserDecks",
+    "RelativePath": "api/v1/UserDecks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.UserDecks, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UserDecksController",
+    "Method": "GetOne",
+    "RelativePath": "api/v1/UserDecks/{userDeckId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDeckId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.UserDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UserDecksController",
+    "Method": "DeleteDeck",
+    "RelativePath": "api/v1/UserDecks/drop/{userDeckId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userdeckid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.UserDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UserDecksController",
+    "Method": "PostDeck",
+    "RelativePath": "api/v1/UserDecks/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userdeck",
+        "Type": "work_practice_backend.Models.UserDecks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.UserDecks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UserDecksController",
+    "Method": "PatchDeck",
+    "RelativePath": "api/v1/UserDecks/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userdeck",
+        "Type": "work_practice_backend.Models.UserDecks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.UserDecks",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -41,8 +765,60 @@
   },
   {
     "ContainingType": "work_practice_backend.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/v1/Users/delete/{userEmail}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "work_practice_backend.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UsersController",
     "Method": "PostUser",
-    "RelativePath": "api/v1/Users",
+    "RelativePath": "api/v1/Users/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -68,7 +844,7 @@
   {
     "ContainingType": "work_practice_backend.Controllers.UsersController",
     "Method": "PatchUser",
-    "RelativePath": "api/v1/Users",
+    "RelativePath": "api/v1/Users/update",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -94,7 +870,7 @@
   {
     "ContainingType": "work_practice_backend.Controllers.UsersController",
     "Method": "GetUser",
-    "RelativePath": "api/v1/Users/{userEmail}",
+    "RelativePath": "api/v1/Users/users/{userEmail}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -108,58 +884,6 @@
     "ReturnTypes": [
       {
         "Type": "work_practice_backend.Models.Users",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "work_practice_backend.Controllers.UsersController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/v1/Users/{userEmail}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userEmail",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "work_practice_backend.Models.Users",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "work_practice_backend.Controllers.UsersController",
-    "Method": "GetCompanyWorkers",
-    "RelativePath": "api/v1/Users/state/{companyEmail}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "companyEmail",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.Users, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

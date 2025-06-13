@@ -7,16 +7,60 @@
       "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\controllers\\userdeckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\userdeckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\controllers\\companystatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\companystatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\controllers\\companydeckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\companydeckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\companystates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\companystates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\database\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:database\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\userdecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\userdecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +71,8 @@
       "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\companystates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\companystates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\companydecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\companydecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\models\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:models\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\database\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:database\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|e:\\github\\work-practice\\work-practice-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D764137-523D-4697-93B4-46BB06868457}|work-practice-backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,72 +90,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CompanyDecks.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\CompanyDecks.cs",
-              "RelativeDocumentMoniker": "Models\\CompanyDecks.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\CompanyDecks.cs",
-              "RelativeToolTip": "Models\\CompanyDecks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T05:42:51.959Z",
+              "WhenOpened": "2025-06-13T09:13:51.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDecksController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\UserDecksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserDecksController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\UserDecksController.cs",
+              "RelativeToolTip": "Controllers\\UserDecksController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:22:12.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:00:17.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:46:13.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:54:00.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TagsController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "Controllers\\TagsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA7wDoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:05:43.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T15:44:54.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompanyStatesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompanyStatesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyStatesController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompanyStatesController.cs",
+              "RelativeToolTip": "Controllers\\CompanyStatesController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwDoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:43:39.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompanyDecksController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompanyDecksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyDecksController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompanyDecksController.cs",
+              "RelativeToolTip": "Controllers\\CompanyDecksController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:40:41.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompaniesController.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:37:06.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CompanyStates.cs",
               "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\CompanyStates.cs",
               "RelativeDocumentMoniker": "Models\\CompanyStates.cs",
               "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\CompanyStates.cs",
               "RelativeToolTip": "Models\\CompanyStates.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T05:34:07.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tags.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tags.cs",
-              "RelativeDocumentMoniker": "Models\\Tags.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tags.cs",
-              "RelativeToolTip": "Models\\Tags.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Database\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Database\\ApplicationContext.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Database\\ApplicationContext.cs",
+              "RelativeToolTip": "Database\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T05:32:35.248Z",
+              "WhenOpened": "2025-06-08T05:44:33.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tasks.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tasks.cs",
-              "RelativeDocumentMoniker": "Models\\Tasks.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tasks.cs",
-              "RelativeToolTip": "Models\\Tasks.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T05:35:09.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "UserDecks.cs",
               "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\UserDecks.cs",
               "RelativeDocumentMoniker": "Models\\UserDecks.cs",
               "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\UserDecks.cs",
               "RelativeToolTip": "Models\\UserDecks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T05:40:08.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "Models\\Tasks.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tasks.cs",
+              "RelativeToolTip": "Models\\Tasks.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:35:09.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Users.cs",
               "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Users.cs",
@@ -144,33 +285,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA5wCkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Tags.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tags.cs",
+              "RelativeDocumentMoniker": "Models\\Tags.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Tags.cs",
+              "RelativeToolTip": "Models\\Tags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T06:00:17.694Z",
+              "WhenOpened": "2025-06-08T05:32:35.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompaniesController.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompaniesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CompaniesController.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "Controllers\\CompaniesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T06:37:06.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Companies.cs",
               "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\Companies.cs",
               "RelativeDocumentMoniker": "Models\\Companies.cs",
@@ -183,41 +311,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Database\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "Database\\ApplicationContext.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Database\\ApplicationContext.cs",
-              "RelativeToolTip": "Database\\ApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "CompanyDecks.cs",
+              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\CompanyDecks.cs",
+              "RelativeDocumentMoniker": "Models\\CompanyDecks.cs",
+              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Models\\CompanyDecks.cs",
+              "RelativeToolTip": "Models\\CompanyDecks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T05:44:33.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T15:44:54.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\GitHub\\Work-Practice\\work-practice-backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T15:46:13.993Z",
+              "WhenOpened": "2025-06-08T05:42:51.959Z",
               "EditorCaption": ""
             }
           ]

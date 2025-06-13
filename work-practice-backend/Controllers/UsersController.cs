@@ -1,8 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 using work_practice_backend.Database;
 using work_practice_backend.Models;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace work_practice_backend.Controllers
 {
@@ -11,8 +15,13 @@ namespace work_practice_backend.Controllers
     public class UsersController : ControllerBase
     {
         private ApplicationContext _db;
+        private IConfiguration _configuration;
 
-        public UsersController(ApplicationContext db) => _db = db;
+        public UsersController(ApplicationContext db, IConfiguration configuration)
+        {
+            _db = db;
+            _configuration = configuration;
+        }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Users>>> Get()
@@ -20,18 +29,8 @@ namespace work_practice_backend.Controllers
             return await _db.users.ToListAsync();
         }
 
-        [Authorize]
-        [HttpGet("state/{companyEmail}")]
-        public async Task<ActionResult<IEnumerable<Users>>> GetCompanyWorkers(string companyEmail)
-        {
-            var companyUsers = await _db.companystates.Where(u => u.name == companyEmail).ToListAsync();
-            var users = companyUsers.Select(u => u.name).ToList();
-
-            return await _db.users.Where(u => users.Contains(u.email)).ToListAsync();
-        }
-
-        [Authorize]
-        [HttpGet("{userEmail}")]
+        [Authorize(Roles = "admin, user")]
+        [HttpGet("users/{userEmail}")]
         public async Task<ActionResult<Users>> GetUser(string userEmail)
         {
             var user = await _db.users.FirstOrDefaultAsync(u => u.name == userEmail);
@@ -40,8 +39,8 @@ namespace work_practice_backend.Controllers
             return Ok(user);
         }
 
-        [Authorize]
-        [HttpDelete("{userEmail}")]
+        [Authorize(Roles = "admin, user")]
+        [HttpDelete("delete/{userEmail}")]
         public async Task<ActionResult<Users>> DeleteUser(string userEmail)
         {
             var user = await _db.users.FirstOrDefaultAsync(u => u.name == userEmail);
@@ -53,7 +52,7 @@ namespace work_practice_backend.Controllers
             return Ok(user);
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<ActionResult<Users>> PostUser(Users user)
         {
             if (user == null) { return NotFound(); }
@@ -63,8 +62,38 @@ namespace work_practice_backend.Controllers
             return Ok(user);
         }
 
-        [Authorize]
-        [HttpPatch]
+        [HttpPost]
+        [Route("login")]
+        public async Task<ActionResult<Users>> Login(Login login)
+        {
+            var user = await _db.users.FirstOrDefaultAsync(u => login.Email == u.email && login.Password == u.password);
+
+            if(user == null) return Unauthorized();
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, _configuration["JWT:Subject"]),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("email", user.email),
+                new Claim(ClaimsIdentity.DefaultRoleClaimType, user.role)
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
+            var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var token = new JwtSecurityToken(
+                _configuration["JWT:Issuer"],
+                _configuration["JWT:Audience"],
+                claims,
+                expires: DateTime.UtcNow.AddMinutes(60),
+                signingCredentials: signIn);
+
+            string tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return Ok(new {Token = tokenValue, User = user, Role = user.role});
+        }
+
+        [Authorize(Roles = "admin, user")]
+        [HttpPatch("update")]
         public async Task<ActionResult<Users>> PatchUser(Users user)
         {
             if (user == null) { return BadRequest(); }

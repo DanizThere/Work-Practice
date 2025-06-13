@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("work-practice-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3647dab3a8baf15c62a085329c44b6dce4dd248c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+177315be076b9d8faeefde5f8f1f1f68ff606b2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("work-practice-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("work-practice-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

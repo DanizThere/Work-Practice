@@ -8,34 +8,36 @@ namespace work_practice_backend.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class CompaniesController : ControllerBase
+    public class CompanyDecksController : ControllerBase
     {
         private ApplicationContext _db;
 
-        public CompaniesController(ApplicationContext db) => _db = db;
+        public CompanyDecksController(ApplicationContext db) => _db = db;
 
+        [Authorize(Roles = "admin, user")]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Companies>>> GetCompanies()
+        public async Task<ActionResult<IEnumerable<CompanyDecks>>> GetCompaniesDecks()
         {
-            return await _db.companies.ToListAsync();
+            return await _db.companydecks.ToListAsync();
         }
 
+        [Authorize(Roles = "admin, user")]
         [HttpGet("{companyId}")]
-        public async Task<ActionResult<Companies>> GetOne(string companyId)
+        public async Task<ActionResult<CompanyDecks>> GetOne(string companyId)
         {
-            var company = await _db.companies.FirstOrDefaultAsync(u => u.name == companyId);
+            var company = await _db.companydecks.FirstOrDefaultAsync(u => u.id == companyId);
 
-            if(company == null) return NotFound();
+            if (company == null) return NotFound();
             return Ok(company);
         }
 
         [Authorize(Roles = "admin, user")]
         [HttpDelete("drop/{companyId}")]
-        public async Task<ActionResult<Companies>> DeleteCompany(string companyId)
+        public async Task<ActionResult<CompanyDecks>> DeleteCompanyDeck(string companyId)
         {
-            var company = await _db.companies.FirstOrDefaultAsync(u => u.name == companyId);
+            var company = await _db.companydecks.FirstOrDefaultAsync(u => u.id == companyId);
 
-            if(company == null) return NotFound();
+            if (company == null) return NotFound();
 
             _db.Remove(company);
             await _db.SaveChangesAsync();
@@ -44,10 +46,10 @@ namespace work_practice_backend.Controllers
 
         [Authorize(Roles = "admin, user")]
         [HttpPatch("update")]
-        public async Task<ActionResult<Companies>> PatchCompany(Companies company)
+        public async Task<ActionResult<CompanyDecks>> PatchCompany(CompanyDecks company)
         {
-            if(company == null) return BadRequest();
-            if(!_db.companies.Contains(company)) return BadRequest();
+            if (company == null) return BadRequest();
+            if (!_db.companydecks.Contains(company)) return BadRequest();
 
             _db.Update(company);
             await _db.SaveChangesAsync();
@@ -56,7 +58,7 @@ namespace work_practice_backend.Controllers
 
         [Authorize(Roles = "admin, user")]
         [HttpPost("register")]
-        public async Task<ActionResult<Companies>> PostCompany(Companies company)
+        public async Task<ActionResult<CompanyDecks>> PostCompany(CompanyDecks company)
         {
             if (company == null) { return NotFound(); }
 
