@@ -1,0 +1,23 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.errorH1{
+    font-size: 80px;
+}
+
+.errorH3{
+    color: rgb(92, 92, 92);
+}
+
+.errorButton{
+    margin: 10px 5px;
+    padding: 10px 15px;
+    background-color: #F6BF5A;
+    border-radius: 40px;
+    border: none;
+}

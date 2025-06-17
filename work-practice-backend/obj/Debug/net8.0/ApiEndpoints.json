@@ -99,6 +99,32 @@
   },
   {
     "ContainingType": "work_practice_backend.Controllers.CompaniesController",
+    "Method": "TryPost",
+    "RelativePath": "api/v1/Companies/trycreate/{companyId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Companies",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.CompaniesController",
     "Method": "PatchCompany",
     "RelativePath": "api/v1/Companies/update",
     "HttpMethod": "PATCH",

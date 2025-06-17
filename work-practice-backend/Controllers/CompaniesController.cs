@@ -54,6 +54,16 @@ namespace work_practice_backend.Controllers
             return Ok(company);
         }
 
+        [HttpPost("trycreate/{companyId}")]
+        public async Task<ActionResult<Companies>> TryPost(string companyId)
+        {
+            var company = await _db.companies.FirstOrDefaultAsync(u => u.corporateemail == companyId);
+
+            if(company == null) return Ok(companyId);
+
+            return Forbid();
+        }
+
         [Authorize(Roles = "admin, user")]
         [HttpPost("register")]
         public async Task<ActionResult<Companies>> PostCompany(Companies company)

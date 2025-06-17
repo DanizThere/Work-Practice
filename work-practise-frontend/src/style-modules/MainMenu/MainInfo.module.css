@@ -21,8 +21,7 @@
     width: 425px;
     height: 50px;
     background-color: #F6BF5A;
-    color: #FFFFFF;
-    font-size: 32px;
+    font-size: 30px;
     align-items: center;
     border-radius: 35px;
     box-sizing: border-box;
@@ -40,6 +39,10 @@
     outline: none;
 }
 
+.check{
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
 
 .authorizeTitle{
     font-size: 20px;
