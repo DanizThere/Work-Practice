@@ -14,6 +14,5 @@ namespace work_practice_backend.Database
         public DbSet<Users> users { get; set; }
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options) { }
-        
     }
 }

@@ -8,8 +8,8 @@ namespace work_practice_backend.Models
         public required string name { get; set; }
         public required string corporateemail { get; set; }
         public required DateOnly dateofregistration { get; set; }
+        public required string author { get; set; }
         public string? description { get; set; }
         public string? image { get; set; }
-        public string? author { get; set; }
     }
 }

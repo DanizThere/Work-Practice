@@ -28,6 +28,10 @@
     border: none;
 }
 
+.authorizeBtn:active{
+    background-color:  #c8813a;
+}
+
 .authorizeInput{
     border-radius: 35px;
     border: #797979 solid 4px;

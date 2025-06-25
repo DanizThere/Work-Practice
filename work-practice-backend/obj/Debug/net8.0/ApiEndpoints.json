@@ -398,6 +398,32 @@
     ]
   },
   {
+    "ContainingType": "work_practice_backend.Controllers.CompanyStatesController",
+    "Method": "GetUserCompanies",
+    "RelativePath": "api/v1/CompanyStates/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.CompanyStates",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "work_practice_backend.Controllers.TagsController",
     "Method": "GetTags",
     "RelativePath": "api/v1/Tags",
@@ -791,6 +817,32 @@
   },
   {
     "ContainingType": "work_practice_backend.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/v1/Users/{userEmail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "work_practice_backend.Models.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UsersController",
     "Method": "DeleteUser",
     "RelativePath": "api/v1/Users/delete/{userEmail}",
     "HttpMethod": "DELETE",
@@ -869,15 +921,41 @@
   },
   {
     "ContainingType": "work_practice_backend.Controllers.UsersController",
-    "Method": "PatchUser",
-    "RelativePath": "api/v1/Users/update",
-    "HttpMethod": "PATCH",
+    "Method": "GetCompanyState",
+    "RelativePath": "api/v1/Users/state/{companyId}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "work_practice_backend.Models.Users",
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[work_practice_backend.Models.Users, work-practice-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "work_practice_backend.Controllers.UsersController",
+    "Method": "TryGet",
+    "RelativePath": "api/v1/Users/tryget/{userEmail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEmail",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -895,15 +973,15 @@
   },
   {
     "ContainingType": "work_practice_backend.Controllers.UsersController",
-    "Method": "GetUser",
-    "RelativePath": "api/v1/Users/users/{userEmail}",
-    "HttpMethod": "GET",
+    "Method": "PatchUser",
+    "RelativePath": "api/v1/Users/update",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userEmail",
-        "Type": "System.String",
+        "Name": "user",
+        "Type": "work_practice_backend.Models.Users",
         "IsRequired": true
       }
     ],

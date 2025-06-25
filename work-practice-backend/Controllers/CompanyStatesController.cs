@@ -32,6 +32,17 @@ namespace work_practice_backend.Controllers
         }
 
         [Authorize(Roles = "admin, user")]
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<CompanyStates>> GetUserCompanies(string userId)
+        {
+            var user = await _db.users.FirstOrDefaultAsync(u => u.nickname == userId);
+            var company = await _db.companystates.Where(u => u.username == user.email).ToListAsync();
+
+            if (company == null) return NotFound();
+            return Ok(company);
+        }
+
+        [Authorize(Roles = "admin, user")]
         [HttpDelete("drop/{companyId}")]
         public async Task<ActionResult<CompanyStates>> DeleteCompanyStates(string companyId)
         {

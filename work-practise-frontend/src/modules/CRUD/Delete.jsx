@@ -8,9 +8,11 @@ export default function Delete(URL){
     .then(response => {
         if(!response.ok){
             throw new Error()
-        }            
+        }   
+        return true;         
     })
     .catch(error => {
         alert("Ошибка в подключении к серверу " + error)
+        return false;
     })
 }

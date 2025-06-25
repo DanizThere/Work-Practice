@@ -25,7 +25,7 @@ namespace work_practice_backend.Controllers
         [HttpGet("{companyId}")]
         public async Task<ActionResult<CompanyDecks>> GetOne(string companyId)
         {
-            var company = await _db.companydecks.FirstOrDefaultAsync(u => u.id == companyId);
+            var company = await _db.companydecks.Where(u => u.companyemail == companyId).ToListAsync();
 
             if (company == null) return NotFound();
             return Ok(company);

@@ -11,8 +11,13 @@ export default async function Add(body, URL){
             body: json
         });
         await response.json()
-        if(response.status === 400) alert("Ошибка заполнения данных")
+        if(response.status === 400){
+            alert("Ошибка заполнения данных")
+            return false;
+        }
+        return true;
     }catch(error){
         alert("Ошибка: " + error)
+        return false;
     }
 }

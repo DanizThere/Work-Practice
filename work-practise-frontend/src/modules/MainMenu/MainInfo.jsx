@@ -9,16 +9,16 @@ export default function MainInfo(){
     const [data, setData] = useState("")
     const [success, setSuccess] = useState("")
     const navigate = useNavigate();
+    const auth = localStorage.getItem("token")
 
     async function checkEmail(){
         if(!EMAIL_REGEXP.test(data)){
-            alert("Это не почта")
             return;
         }
         const response = await AddText("https://localhost:7056/api/v1/companies/trycreate/" + data)
         if(response === "is ok") {
+            if(!auth) navigate("/register/userAndCompany")
             localStorage.setItem('companyEmail', data)
-            navigate("/company/create")
             return;
         }
         setSuccess(response)

@@ -7,6 +7,7 @@ using work_practice_backend.Models;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Linq;
 
 namespace work_practice_backend.Controllers
 {
@@ -29,14 +30,32 @@ namespace work_practice_backend.Controllers
             return await _db.users.ToListAsync();
         }
 
+        [HttpGet("state/{companyId}")]
+        public async Task<ActionResult<IEnumerable<Users>>> GetCompanyState(string companyId)
+        {
+            var names = await _db.companystates.Where(c => c.name == companyId).Select(c => c.username).ToListAsync();
+            var users = await _db.users.Where(u => names.Contains(u.email)).ToListAsync();
+            return users;
+        }
+
         [Authorize(Roles = "admin, user")]
-        [HttpGet("users/{userEmail}")]
+        [HttpGet("{userEmail}")]
         public async Task<ActionResult<Users>> GetUser(string userEmail)
         {
-            var user = await _db.users.FirstOrDefaultAsync(u => u.name == userEmail);
+            var user = await _db.users.FirstOrDefaultAsync(u => u.nickname == userEmail);
 
             if(user == null) { return NotFound(); }
             return Ok(user);
+        }
+
+        [HttpGet("tryget/{userEmail}")]
+        public async Task<ActionResult<Users>> TryGet(string userEmail)
+        {
+            var company = await _db.users.FirstOrDefaultAsync(u => u.email == userEmail);
+
+            if (company == null) return Ok(userEmail);
+
+            return Forbid();
         }
 
         [Authorize(Roles = "admin, user")]

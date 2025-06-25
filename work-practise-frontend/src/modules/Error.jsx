@@ -8,7 +8,7 @@ export default function Error(){
             <div className={styles.error}>
             <h1 className={styles.errorH1}>404 Not Found</h1>
             <h3 className={styles.errorH3}>Нам очень жаль, что вы не смогли попасть туда, куда хотели :{"("}</h3>
-            <button className={styles.errorButton} onClick={() => navigate("main")}>Возвращайтесь в изведанную область</button>
+            <button className={styles.errorButton} onClick={() => navigate("")}>Возвращайтесь в изведанную область</button>
             </div>
         </>
     )
